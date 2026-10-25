@@ -8,6 +8,9 @@ on:
         required: false
         default: 'Run self-diagnostics and report status'
 
+permissions:
+  contents: read
+
 jobs:
   run-jarvis:
     runs-on: ubuntu-latest

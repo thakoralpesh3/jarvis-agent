@@ -32,3 +32,6 @@ data/*.db
 .vscode/
 *.swp
 *~
+
+# Cloudflare Security Auditor Hardening
+*.pyc
