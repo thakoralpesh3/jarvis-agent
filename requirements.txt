@@ -5,5 +5,5 @@ psutil>=5.9.0
 rich>=13.7.0
 pytest>=8.0.0
 mss>=9.0.0
-aiohttp>=3.9.0
+aiohttp>=3.14.5
 duckduckgo_search>=6.0.0
