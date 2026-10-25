@@ -1,0 +1,9 @@
+services:
+  jarvis-agent:
+    build: .
+    container_name: jarvis_agent
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
