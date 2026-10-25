@@ -161,3 +161,4 @@ To verify the memory system, tool execution, and dynamic skill synthesis:
 ```bash
 python3 -m pytest tests/
 ```
+<!-- Verified Cloud Codespace & Omni-Sync Sunday 25 October 2026 02:44:28 PM IST -->
