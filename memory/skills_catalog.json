@@ -1,0 +1,432 @@
+{
+  "cloud_sync_tools": {
+    "module": "tools.cloud_sync_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/cloud_sync_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Optional",
+      "check_cloud_sentinel_status",
+      "load_config",
+      "send_wake_on_lan_signal",
+      "sync_cloud_task_queue"
+    ]
+  },
+  "briefing_tools": {
+    "module": "tools.briefing_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/briefing_tools.py",
+    "functions": [
+      "get_daily_briefing"
+    ]
+  },
+  "laptop_tools": {
+    "module": "tools.laptop_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/laptop_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "Path",
+      "change_screen_brightness",
+      "change_system_volume",
+      "click_mouse_button",
+      "close_window_by_title",
+      "control_media_player",
+      "focus_window_by_title",
+      "get_battery_status",
+      "get_clipboard_content",
+      "get_laptop_battery_info",
+      "list_active_windows",
+      "lock_laptop_screen",
+      "lock_screen",
+      "move_mouse_cursor",
+      "open_url",
+      "press_keyboard_hotkey",
+      "scroll_screen",
+      "set_clipboard_content",
+      "set_screen_brightness",
+      "set_system_volume",
+      "toggle_system_mute",
+      "type_keyboard_text"
+    ]
+  },
+  "evolution_tools": {
+    "module": "tools.evolution_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/evolution_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Optional",
+      "execute_surprise_idea",
+      "get_agent_evolution_status",
+      "load_config",
+      "surprise_me_with_idea",
+      "trigger_self_evolution_cycle"
+    ]
+  },
+  "mark8_tools": {
+    "module": "tools.mark8_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/mark8_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "book_whatsapp_service_appointment",
+      "clear_re_ecu_dtc_codes",
+      "control_workshop_iot_device",
+      "get_daily_re_market_intelligence",
+      "get_re_factory_torque_specs",
+      "launch_holographic_web_hud",
+      "predict_re_bike_health_score",
+      "read_re_ecu_telemetry",
+      "run_jarvis_self_optimization",
+      "scan_re_ecu_dtc_codes"
+    ]
+  },
+  "language_tools": {
+    "module": "tools.language_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/language_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "get_agent_language",
+      "list_supported_languages",
+      "set_agent_language"
+    ]
+  },
+  "innovations_suite_tools": {
+    "module": "tools.innovations_suite_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/innovations_suite_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "diagnose_re_engine_sound",
+      "generate_wholesale_purchase_order",
+      "launch_arc_reactor_hud",
+      "manage_chamunda_riders_club",
+      "optimize_re_part_pricing",
+      "scan_re_part_image",
+      "toggle_silent_shadow_copilot",
+      "toggle_wake_word_listener"
+    ]
+  },
+  "model_tools": {
+    "module": "tools.model_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/model_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "check_and_upgrade_model",
+      "list_available_ai_models",
+      "set_ai_model"
+    ]
+  },
+  "turbo_speed_tools": {
+    "module": "tools.turbo_speed_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/turbo_speed_tools.py",
+    "functions": [
+      "Optional",
+      "boost_laptop_to_max_speed",
+      "inspect_laptop_performance_mode",
+      "toggle_turbo_performance_profile"
+    ]
+  },
+  "system_tools": {
+    "module": "tools.system_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/system_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Path",
+      "execute_shell_command",
+      "get_system_metrics",
+      "launch_desktop_app",
+      "list_directory_files",
+      "read_file_content",
+      "write_file_content"
+    ]
+  },
+  "chamunda_ceo_tools": {
+    "module": "tools.chamunda_ceo_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/chamunda_ceo_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "Path",
+      "chamunda_audit_expedition_readiness",
+      "chamunda_build_carry_along_spares_kit",
+      "chamunda_build_custom_restomod_quote",
+      "chamunda_calculate_performance_stage_tune",
+      "chamunda_complete_job_and_invoice",
+      "chamunda_create_b2b_wholesale_order",
+      "chamunda_create_dms_billing_invoice",
+      "chamunda_create_job_card",
+      "chamunda_create_quick_counter_pos_sale",
+      "chamunda_create_vehicle_booking",
+      "chamunda_delegate_shop_task",
+      "chamunda_diagnose_engine_sound",
+      "chamunda_diagnose_re_bike",
+      "chamunda_diagnose_vintage_ci_bullet",
+      "chamunda_evaluate_market_valuation",
+      "chamunda_execute_written_command",
+      "chamunda_file_oem_warranty_claim",
+      "chamunda_generate_ceo_revenue_report",
+      "chamunda_generate_health_passport",
+      "chamunda_generate_pdi_certificate",
+      "chamunda_generate_predictive_auto_po",
+      "chamunda_generate_social_campaign",
+      "chamunda_generate_wholesale_po",
+      "chamunda_get_b2b_wholesale_overview",
+      "chamunda_get_cloud_shadow_telemetry",
+      "chamunda_get_dms_csat_qc_telemetry",
+      "chamunda_get_dms_executive_telemetry",
+      "chamunda_get_dms_financial_daybook",
+      "chamunda_get_kalpavriksha_growth_telemetry",
+      "chamunda_get_multibranch_overview",
+      "chamunda_get_night_locker_telemetry",
+      "chamunda_get_predictive_service_reminders",
+      "chamunda_get_predictive_supply_forecast",
+      "chamunda_get_social_telemetry",
+      "chamunda_get_subagents_growth_telemetry",
+      "chamunda_get_subagents_status",
+      "chamunda_get_system_performance_metrics",
+      "chamunda_get_webar_engine_overlay",
+      "chamunda_heal_shop_subagent",
+      "chamunda_highway_breakdown_sos_triage",
+      "chamunda_inspect_preowned_bike",
+      "chamunda_issue_ride_sure_warranty",
+      "chamunda_kiosk_express_checkin",
+      "chamunda_launch_marketing_campaign",
+      "chamunda_launch_re_marketing_campaign",
+      "chamunda_launch_workshop_portal",
+      "chamunda_list_shop_subagents",
+      "chamunda_lookup_3d_engine_schematic",
+      "chamunda_lookup_part",
+      "chamunda_manage_amc_membership",
+      "chamunda_manage_google_business_reviews",
+      "chamunda_manage_social_inbox",
+      "chamunda_optimize_laptop_performance",
+      "chamunda_process_bay_voice_command",
+      "chamunda_publish_social_post",
+      "chamunda_record_psf_csat_feedback",
+      "chamunda_reserve_emergency_highway_locker",
+      "chamunda_run_borescope_inspection",
+      "chamunda_run_obd_iot_scan",
+      "chamunda_search_parts_filtered",
+      "chamunda_simulate_offline_agent_query",
+      "chamunda_track_customer_service_status",
+      "chamunda_transfer_branch_inventory",
+      "chamunda_trigger_agent_synthetic_training",
+      "chamunda_trigger_cloud_shadow_sync",
+      "chamunda_tune_engine_thump",
+      "chamunda_unlock_emergency_highway_locker"
+    ]
+  },
+  "interactive_tools": {
+    "module": "tools.interactive_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/interactive_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "ask_user_confirmation",
+      "ask_user_multiple_choice",
+      "display_user_message_box",
+      "play_stark_sound",
+      "prompt_user_input",
+      "send_desktop_notification"
+    ]
+  },
+  "browser_controller": {
+    "module": "tools.browser_controller",
+    "file": "/home/alpesh/jarvis-agent/tools/browser_controller.py",
+    "functions": [
+      "Any",
+      "BrowserAutomationSession",
+      "Dict",
+      "List",
+      "Optional",
+      "Path",
+      "browser_click_element",
+      "browser_close_session",
+      "browser_extract_page_content",
+      "browser_navigate",
+      "browser_take_page_screenshot",
+      "browser_type_text",
+      "desktop_browser_close_tab",
+      "desktop_browser_find_on_page",
+      "desktop_browser_history_nav",
+      "desktop_browser_new_tab",
+      "desktop_browser_reload_page",
+      "desktop_browser_switch_tab"
+    ]
+  },
+  "system_optimizer_tools": {
+    "module": "tools.system_optimizer_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/system_optimizer_tools.py",
+    "functions": [
+      "Optional",
+      "diagnose_hang_and_lag_causes",
+      "diagnose_system_sluggishness",
+      "optimize_laptop_performance",
+      "remedy_laptop_hang_and_lag",
+      "resolve_laptop_sluggishness",
+      "terminate_specific_process"
+    ]
+  },
+  "stay_awake_tools": {
+    "module": "tools.stay_awake_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/stay_awake_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Optional",
+      "inspect_stay_awake_status",
+      "load_config",
+      "toggle_force_stay_awake"
+    ]
+  },
+  "agent_commander_tools": {
+    "module": "tools.agent_commander_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/agent_commander_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "command_youtube_shorts_agent",
+      "diagnose_and_heal_subagent",
+      "diagnose_stuck_situation",
+      "list_subordinate_agents",
+      "load_config"
+    ]
+  },
+  "security_tools": {
+    "module": "tools.security_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/security_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Optional",
+      "check_firewall_status",
+      "load_config",
+      "neutralize_suspicious_threat",
+      "run_system_security_audit",
+      "scan_for_hacker_backdoors",
+      "scan_network_vulnerabilities"
+    ]
+  },
+  "laptop_work_tools": {
+    "module": "tools.laptop_work_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/laptop_work_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "Path",
+      "compress_to_archive",
+      "copy_file_or_folder",
+      "delete_file_or_folder",
+      "dispatch_background_laptop_work",
+      "extract_archive",
+      "find_files_across_laptop",
+      "find_running_processes",
+      "get_detailed_disk_usage",
+      "get_network_and_wifi_status",
+      "inspect_desktop_state",
+      "kill_process_by_name",
+      "manage_software_package",
+      "move_or_rename_file",
+      "open_file_or_folder_with_default_app",
+      "open_notification_details",
+      "search_files_by_pattern",
+      "send_desktop_notification",
+      "view_recent_notifications"
+    ]
+  },
+  "learning_tools": {
+    "module": "tools.learning_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/learning_tools.py",
+    "functions": [
+      "LearningToolProvider",
+      "Optional"
+    ]
+  },
+  "tool_registry": {
+    "module": "tools.tool_registry",
+    "file": "/home/alpesh/jarvis-agent/tools/tool_registry.py",
+    "functions": [
+      "Any",
+      "Callable",
+      "Dict",
+      "List",
+      "Optional",
+      "ToolRegistry"
+    ]
+  },
+  "autonomous_creator_tools": {
+    "module": "tools.autonomous_creator_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/autonomous_creator_tools.py",
+    "functions": [
+      "Any",
+      "Optional",
+      "build_and_execute_project_autonomously",
+      "load_config",
+      "suggest_innovative_ideas"
+    ]
+  },
+  "web_tools": {
+    "module": "tools.web_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/web_tools.py",
+    "functions": [
+      "Optional",
+      "fetch_url",
+      "search_web"
+    ]
+  },
+  "vision_tools": {
+    "module": "tools.vision_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/vision_tools.py",
+    "functions": [
+      "Optional",
+      "Path",
+      "capture_screen",
+      "datetime"
+    ]
+  },
+  "ironman_protocols": {
+    "module": "tools.ironman_protocols",
+    "file": "/home/alpesh/jarvis-agent/tools/ironman_protocols.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "Optional",
+      "Path",
+      "execute_ironman_protocol",
+      "play_stark_sound",
+      "run_full_diagnostic_sweep"
+    ]
+  },
+  "universal_resumer_tools": {
+    "module": "tools.universal_resumer_tools",
+    "file": "/home/alpesh/jarvis-agent/tools/universal_resumer_tools.py",
+    "functions": [
+      "Any",
+      "Dict",
+      "List",
+      "Optional",
+      "resume_antigravity_interrupted_work",
+      "scan_and_resume_interrupted_apps"
+    ]
+  }
+}
